@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #95b9c9;
+}
+
+a {
+  text-decoration: none;
+}
+button {
+  border: none;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#header {
+  background: #fff;
+  padding: 10px 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header img {
+  width: 70px;
+}
+
+nav {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: #000;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+/* ? CREATE */
+
+.create_title {
+  margin-top: 28px;
+  text-align: center;
+  color: #33332d;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: 3.2px;
+}
+
+.create {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box_create_input {
+  margin-bottom: 20px;
+}
+input {
+  padding: 10px 30px;
+  border-radius: 7px;
+}
+.btn_create {
+  padding: 7px 40px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1.08px;
+  border-radius: 7px;
+  background: #ddaa27;
+  cursor: pointer;
+}
+
+/* ? MENU */
+.menu {
+  padding: 18px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  backdrop-filter: blur(4px);
+}
+.card {
+  margin: 0 15px 25px 15px;
+  padding: 10px;
+  width: 310px;
+  height: 280px;
+  border-radius: 15px;
+  background: #d9d9d9;
+}
+.menu_img {
+  width: 310px;
+  height: 180px;
+  border-radius: 8px;
+}
+.menu_text {
+  margin: 10px 0 20px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu_text p {
+  color: #000;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0.72px;
+}
+
+.action_btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn_buy {
+  width: 40px;
+  height: 40px;
+  padding: 4px;
+  font-size: 30px;
+  cursor: pointer;
+  background: #d9d9d9;
+  color: green;
+}
+.btn_edit {
+  width: 40px;
+  height: 40px;
+  padding: 4px;
+  font-size: 30px;
+  cursor: pointer;
+  background: #d9d9d9;
+  color: orange;
+}
+
+.btn_delete {
+  width: 40px;
+  height: 40px;
+  padding: 4px;
+  font-size: 30px;
+  color: red;
+  cursor: pointer;
+  background: #d9d9d9;
+}
